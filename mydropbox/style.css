@@ -1,0 +1,119 @@
+/* style.css */
+
+body { 
+        background-color: black;
+        color:white;
+
+        font-family: "Sharp Grotesk DB Cyr Book 20 Regular";
+
+        margin:0;
+     }
+
+header { 
+        background-color: white;  
+        display: flex;
+        justify-content: space-between;      
+}   
+
+header #dropbox_title { 
+        padding: 0.75em 1em;
+}
+
+#logo { background-color: #0061fe;}
+
+header img:nth-child(2) { margin-right: auto;}
+
+nav { 
+        display: flex;
+         align-items: center;
+        margin: 0 2em;
+}
+
+nav a {   
+        margin: 0 1em;
+        text-decoration: none;
+        color: rgb(30, 25, 25);
+      }
+
+header button { 
+                background-color: #0061fe;
+                color: rgb(247, 245, 242);
+                font-weight: bold;
+                font-size: 16px;
+                border:none;
+                padding-left:1em;
+                padding-right: 1em;
+
+                display: flex;
+                align-items: center;
+                align-self: center;
+
+                margin-right: 1.5em;
+
+              } 
+
+header button span { 
+                        margin-right: 2em;
+                        padding: 0.5em;
+                } 
+
+
+video { 
+        max-width: 80%;
+        margin: 0 auto;
+      }    
+      
+      #everything {
+        display: flex;
+        align-items: flex-start; /* Ajusta a posição vertical para o início */
+    }
+    
+    #everything div {
+        box-sizing: border-box;
+        width: 50%;
+        text-align: center;
+    }
+#everything div h1 { margin-top: 2.5em; }
+
+#everything div p { line-height: 1.5;}
+
+#everything div a { 
+                    background-color: #3984ff;
+                    color:rgb(30, 25, 25);
+                    text-decoration: none;
+                    padding:2em 1em;
+                    display: inline-block;
+                    font-weight: bold;
+                }
+/* Alinhe os links à esquerda no cabeçalho */
+nav.left {
+        margin-right: auto;
+    }
+    
+    /* Estilo para os links da navegação à esquerda */
+    nav.left a {
+        text-decoration: none;
+        color: #333; /* Cor dos links à esquerda */
+        margin: 0 20px; /* Espaçamento entre os links */
+        margin-left: 0; /* Adiciona uma margem à esquerda para alinhar à esquerda */
+    }
+/* Estilo para o link "Get started now" na mesma linha com a imagem */
+header a {
+        text-decoration: none;
+        color: rgb(247, 245, 242); /* Cor do texto do link */
+        display: inline-block;
+        margin-right: 1.5em;
+        vertical-align: middle;
+    }
+    
+    header a img {
+        vertical-align: middle;
+    }
+    .video-container {
+        width: 50%; /* Define a largura do contêiner de vídeo */
+    }
+    
+    .video-container video {
+        width: 100%; /* Define a largura do vídeo para ocupar todo o contêiner */
+        margin-top: 20px; /* Adiciona uma margem superior para separar o vídeo do texto */
+    }
