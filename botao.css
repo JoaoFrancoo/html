@@ -1,0 +1,14 @@
+.botao{
+    text-decoration: none;
+    padding: 15px 20px; /* colocar 2 valores faz com que fique o padding top,right,bottom e left ou seja, o primeiro (15) é bom top,
+    segundo (20) é right, se eu colocar um terceiro é bottom e um quarto seria left; */
+    display: inline-block;
+    background-color: cyan;
+    color: black;
+    transition: background-color 0.3 ease-out;
+    cursor: pointer;
+}
+.botao:hover{
+    background-color: blue;
+    transition: background-color 0.3s ease-in;
+}
